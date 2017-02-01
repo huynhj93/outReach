@@ -9,7 +9,6 @@ var getElementsByClassName = function(className, element) {
 
   element = element || document.body;
   var results = [];
-  console.log('document.body is', document.body);
   if (element.classList && _.contains(element.classList, className)) {
     results.push(element);
   }
