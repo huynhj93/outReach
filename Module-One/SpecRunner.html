@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Mocha Spec Runner</title>
+  <link rel="stylesheet" href="../lib/mocha/mocha.css">
+  <link rel="stylesheet" href="../SpecRunner.css">
+  <script src="../lib/jquery.js"></script>
+  <script src="../lib/underscore.js"></script>
+  <script src="../lib/mocha/mocha.js"></script>
+  <script src="../lib/chai/chai.js"></script>
+  <script src="../lib/sinon/sinon.js"></script>
+  <script src="../lib/cardboard.js"></script>
+  <script>
+    mocha.setup({ui: 'bdd', reporter: cardboard});
+    window.expect = chai.expect;
+    $(function() {
+      window.mochaPhantomJS ? mochaPhantomJS.run() : mocha.run();
+    });
+  </script>
+  <script src="1-DeclaringVariables.js"></script>
+  <script src="2-ConsoleLog.js"></script>
+  <script src="3-TypeCoercion.js"></script>
+  <script src="4-Reassignment.js"></script>
+  <script src="5-References.js"></script>
+  <script src="6-MathOperators.js"></script>
+  <script src="7-Functions.js"></script>
+  <script src="../spec/whatsForDinnerSpec.js"></script>
+</head>
+<body>
+<div id="mocha"></div>
+</body>
+</html>
+
