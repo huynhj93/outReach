@@ -1,22 +1,22 @@
-//1. Decalare a variable named a and give it a type of string on line 3
+//1. Decalare a variable named a and give it any value of type string on line 3
 
 var a = 'imastring';
 
 //-----------------------------------------------------------------------
 
-//2. Declare a variable named b and give it a type of number on line 9
+//2. Declare a variable named b and give it any value of type number on line 9
 
 var b = 1010;
 
 //-----------------------------------------------------------------------
 
-//3. Declare a variable named c and give it a type of boolean on line 15
+//3. Declare a variable named c and give it any value of type boolean on line 15
 
 var c = true;
 
 //-----------------------------------------------------------------------
 
-//4. Declare a variable named 1 and give it a type of number on line 21
+//4. Declare a variable named 1 and give it any value of type number on line 21
 
 // var 1 = 1;
 

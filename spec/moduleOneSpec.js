@@ -14,6 +14,12 @@ describe('Console.log', () => {
 	it('should be called once with the variable d', () => {
 		expect(d).to.not.equal('undefined');
 	});
+	it('ans1 should have the right value', () => {
+		expect(ans1).to.equal(true);
+	});
+	it('ans2 should have the right value', () => {
+		expect(ans2).to.equal(false);
+	});
 });
 
 describe('Type Coercion', () => {
