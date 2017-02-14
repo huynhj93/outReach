@@ -20,6 +20,36 @@ describe('Console.log', () => {
 	it('ans2 should have the right value', () => {
 		expect(ans2).to.equal(false);
 	});
+	it('ans3 should have the right value', () => {
+		expect(ans3).to.equal(false);
+	});
+	it('ans4 should have the right value', () => {
+		expect(ans4).to.equal(false);
+	});
+	it('ans5 should have the right value', () => {
+		expect(ans5).to.equal(true);
+	});
+	it('ans6 should have the right value', () => {
+		expect(ans6).to.equal(false);
+	});
+	it('ans7 should have the right value', () => {
+		expect(ans7).to.equal(true);
+	});
+	it('ans8 should have the right value', () => {
+		expect(ans8).to.equal(true);
+	});
+	it('ans9 should have the right value', () => {
+		expect(ans9).to.equal(false);
+	});
+	it('ans10 should have the right value', () => {
+		expect(ans10).to.equal(false);
+	});
+	it('ans11 should have the right value', () => {
+		expect(ans11).to.equal(false);
+	});
+	it('ans12 should have the right value', () => {
+		expect(ans12).to.equal(true);
+	});
 });
 
 describe('Type Coercion', () => {
@@ -35,6 +65,9 @@ describe('Type Coercion', () => {
 	it('g should be the right value!', () => {
 		expect(g).to.equal('189');
 	});
+});
+
+describe('Reassignment', () => {
 	it('h should be the right value!', () => {
 		expect(h).to.equal('notKevin');
 	});
@@ -43,17 +76,14 @@ describe('Type Coercion', () => {
 	});
 });
 
-describe('Reassignment', () => {
-	it('j should have the right value', () => {
-		expect(j).to.equal(15);
-	});
+describe('References', () => {
 	it('l should have the right value', () => {
 		expect(l).to.equal(15);
 	});
 	it('m should have the right value', () => {
 		expect(m).to.equal(15);
 	});
-});
+})
 
 describe('MathOperators', () => {
 	it('x should have the correct value', () => {
@@ -70,6 +100,7 @@ describe('Functions', () => {
 	});
 	it('helloPerson should have a single argument called person', () => {
 		var test = helloPerson.toString();
+		console.log('testt isss', test);
 		var open;
 		var close;
 		var flag1 = true;
@@ -85,7 +116,7 @@ describe('Functions', () => {
 		}
 		var params = helloPerson.toString().slice(open+1, close).split(',');
 		expect(params.length).to.equal(1);
-		expect(params[0] === 'person');
+		expect(params[0]).to.equal('person');
 	});
 	it('add10 should be a function that takes a number and then outputs that number + 10', () => {
 		var what = addTen(3);

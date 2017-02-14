@@ -1,18 +1,18 @@
 //1. Decalare a variable named a and give it any value of type string on line 3
 
-var a = 'imastring';
+
 
 //-----------------------------------------------------------------------
 
 //2. Declare a variable named b and give it any value of type number on line 9
 
-var b = 1010;
+
 
 //-----------------------------------------------------------------------
 
 //3. Declare a variable named c and give it any value of type boolean on line 15
 
-var c = true;
+
 
 //-----------------------------------------------------------------------
 
@@ -21,19 +21,19 @@ var c = true;
 // var 1 = 1;
 
 //4-Discuss: What happened????? And why???
-//Answer: Our first letter must always be a letter or underscore
+//Answer: 
 //-----------------------------------------------------------------------
 
 //5. Declare a variable named 'w u t' and give it a type of string on line 29:
 
-var w_ = '3';
+
 
 //-----------------------------------------------------------------------
 
 
 //General-Discuss: What are the other restrictions to naming variables?
-//Answer: Case sensitive and letters,numbers,underscore only.
+//Answer: 
 //General-Discuss: Why is it useful to declare variables?
-//Answer: Similar to our need of having shortcuts to someone's phone number, we don't want to type out 408-655-5398 all the time, we just want to refer it to x;
+//Answer: 
 //General-Discuss: Why is our first letter always lower case?
-//Answer: A variable whose first letter is capitalcase signifies a special meaning in JavaScript
+//Answer: 
