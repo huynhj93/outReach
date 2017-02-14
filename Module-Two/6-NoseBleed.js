@@ -101,11 +101,11 @@ var JOURNAL = [
 //     __________________________
 //	  |No nosebleed	|No nosebleed |
 //	  |No pizza	  	|Yes pizza	  |
-//    |		76		|	   9      |
+//    |		76		    |	   9        |
 //	  |_____________|____________ |
 //    |Yes nosebleed|Yes nosebleed|
 //    |	No pizza    |  Yes pizza  |
-//    |		4		|		1	  |	
+//    |		4		      |		1	        |	
 //    |_____________|____________ |
 
 //   What this table is telling us, is that there are 79 times in the journal when
@@ -126,8 +126,8 @@ function correlation (table) {
 console.log(correlation[76, 9 , 4, 1]) // -> 0.0685994
 
 // 1. Fill out the rest of the code for the following function. The function should return
-//    the table for the given evenl. For example, given the event "pizza",
-//    and the journal Alex posess, the function should return [76, 9 ,4, 1].
+//    the table for the given event. For example, given the event "pizza",
+//    and the journal Alex possess, the function should return [76, 9 ,4, 1].
 function tableFor(event, journal) {
 
 }
@@ -165,7 +165,7 @@ var correlations = gatherCorrelations(JOURNAL);
 //    You'll find that most correlations seem to lie close to zero. 
 
 for (event in correlations) {
-	//console log something
+	//console log each correlation
 }
 
 //4. Change the code above so that you only console log when the correlations is greater than

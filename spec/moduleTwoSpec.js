@@ -49,3 +49,21 @@ describe('Objects and arrays', () => {
 	});
 }); 
 
+describe('Nosebleed', () => {
+	it('tableFor should be a function that returns a table for a given event', () => {
+		var what = tableFor('pizza', JOURNAL);
+		console.log(JOURNAL);
+		console.log('what isss', what);
+		expect(what).to.deep.equal([76,9,4,1]);
+		var what2 = tableFor('weekend', JOURNAL);
+		expect(what2).to.deep.equal([58,27,2,3]);
+	});
+	it('correlations should be an object with events as the keys and the correlations as values', () => {
+		var what = gatherCorrelations(JOURNAL);
+		console.log('what isss', what);
+		expect(what.lasagna).to.equal(0.08084520834544433);
+		expect(what.beer).to.equal(-0.05230657809659414);
+		expect(what.cycling).to.equal(-0.08084520834544433);
+	});
+});
+
