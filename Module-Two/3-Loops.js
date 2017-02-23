@@ -1,30 +1,20 @@
 // 1. Write a function called log20 that console logs
 //    the numbers 1 2 3 4 ... up to 20.
 
-var log20 = function () {
-	for (var i = 1; i < 21; i++) {
-		console.log(i);
-	}
-}
+var log20 = 'FILL ME IN';
 
 // invoke log20 here and check your console to see if you did it correctly
 
 // 2. Write a function called sum that takes in a number called num,
 //    and sums up 1 + 2 + 3 + 4 + ... + num. For example, sum(6) should return 1 + 2 + 3 + 4 + 5 + 6
 
-var sum = function (num) {
-	var accum = 0;
-	for (var i = 1; i <= num; i++) {
-		accum+= i;
-	}
-	return accum;
-}
+var sum = 'FILL ME IN';
 
 //3. Refactor log20 to use a while loop instead.
 //4. Refactor sum to use a while loop instead.
 
 // 5. Use the break keyword (along with a conditional) somewhere in the following code 
-//    so that the loop only console logs 5 times. Do not alter line 30. 
+//    so that the loop only console logs 5 times. Do not alter the line 'for(var i =0;i<100;i++0)'
 
 var log5 = function () {				//Check your console to see if you did it correctly
 	for (var i = 0; i < 100; i++) {
@@ -33,7 +23,7 @@ var log5 = function () {				//Check your console to see if you did it correctly
 }
 
 //6. Use the continue keyword somewhere in the following code so that the code console logs every number
-//   in the loop except 5. Do not alter line 39.
+//   in the loop except 5. Do not alter the line 'for (var i = 0; i < 10; i++)'
 
 var log10 = function () {				//Check your console if you did it correctly
 	for (var i = 0; i < 10; i++) {

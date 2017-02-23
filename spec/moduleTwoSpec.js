@@ -49,6 +49,9 @@ describe('Objects and arrays', () => {
 	});
 }); 
 
+describe('Closures', () => {
+	
+});
 describe('Nosebleed', () => {
 	it('tableFor should be a function that returns a table for a given event', () => {
 		var what = tableFor('pizza', JOURNAL);
